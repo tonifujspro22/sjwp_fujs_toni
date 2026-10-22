@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+  </head>
+  <body>
+    <h1>HTML forme</h1>
+    <!-- get - ne bitno, post - privatne informacije -->
+    <form action="#" method="get">
+      <label for="name">Unesi ime:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="unesi ime..."
+        size="15"
+        maxlenght="4"
+        required
+      />
+      <!-- disabled -->
+      <br />
+      <label for="pass">Unesi lozinku</label>
+      <input type="password" name="pass" id="pass" /> <br />
+      <label for="mail">Unesi mail</label>
+      <input type="email" name="mail" id="mail" /> <br />
+      <label for="date">Izaberi datum</label>
+      <input type="date" name="date" id="date" /> <br />
+      <label for="color">Izaberi boju</label>
+      <input type="color" name="color" id="color" /> <br />
+      <label for="file"></label>
+      <input type="file" name="file" id="file" /> <br />
+      <label for="tel">Unesi broj telefona</label>
+      <input
+        type="tel"
+        name="tel"
+        id="tel"
+        pattern="[0-9]"
+        title="samo brojevi"
+      />
+      <br />
+
+      <p>Odaberi najbolji klub:</p>
+      <input type="radio" name="klub" id="real" />
+      <label for="real">Real Madrid</label> <br />
+      <input type="radio" name="klub" id="barca" />
+      <label for="Barca">Barcelona</label> <br />
+      <input type="radio" name="klub" id="marsa" />
+      <label for="Marsa">Marsonia</label> <br />
+      <p>Odaberin najbolji klub</p>
+      <input type="checkbox" name="klub1" id="real" />
+      <label for="real">Real Madrid</label> <br />
+      <input type="checkbox" name="klub2" id="barca" />
+      <label for="barca">Barcelona</label> <br />
+      <input type="checkbox" name="klub3" id="marsa" />
+      <label for="marsa">Marsonia</label> <br />
+
+      <input type="submit" value="Pošalji" /> <br />
+      <input type="reset" value="Obriši" />
+    </form>
+  </body>
+</html>
