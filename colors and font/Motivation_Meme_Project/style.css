@@ -1,0 +1,13 @@
+#a {
+  margin: 0 auto;
+  display: block;
+  border: 10px solid white;
+}
+body {
+  background-color: black;
+}
+#b {
+  text-align: center;
+  color: white;
+  font-family: Libre Baskerville;
+}
